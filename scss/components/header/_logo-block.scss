@@ -1,0 +1,26 @@
+.logo-block{
+	width: 264px;
+	cursor: pointer;
+	display: block;
+
+	img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	&:hover{
+		opacity: .8;
+	}
+
+	&.small{
+		width: 170px;
+	}
+}
+
+
+.sticky{
+	.logo-block{
+		width: 170px;
+	}
+}

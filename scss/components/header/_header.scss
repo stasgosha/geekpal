@@ -1,0 +1,17 @@
+.header{
+	background: $darkblue;
+	padding: 29px 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+
+	&.sticky{
+		padding: 15px 0;
+	}
+}
+
+.header-inner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
