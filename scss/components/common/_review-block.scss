@@ -1,0 +1,15 @@
+.review-block{
+	color: $lightblue;
+
+	.block-text{
+		margin-bottom: 25px;
+	}
+
+	.block-author{
+		font-weight: bold;
+
+		&:before{
+			content: '- ';
+		}
+	}
+}

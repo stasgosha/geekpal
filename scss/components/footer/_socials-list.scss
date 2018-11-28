@@ -1,0 +1,42 @@
+.socials-list{
+	display: flex;
+	align-items: center;
+	list-style: none;
+
+	li{
+		margin-right: 150px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		a{
+			display: block;
+			color: #c73762;
+
+			i{
+				display: block;
+			}
+
+			&:hover{
+				color: #fff;
+			}
+		}
+	}
+
+	@media screen and (max-width: 1239px){
+		li{
+			margin-right: 60px;
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		li{
+			a{
+				i:before{
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}

@@ -1,13 +1,138 @@
 [class^="icon-"], [class*=" icon-"]{
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	flex: none;
-	background: url(../img/icons/icons-sprite.png) no-repeat;
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bulb{
-	width: 52px;
-	height: 64px;
-	background-position: -167px -124px;
+.icon-download:before{
+	content: "\e909";
+}
+
+.icon-facebook:before{
+	font-size: 39px;
+	content: "\e900";
+}
+
+.icon-twitter:before{
+	font-size: 34px;
+	content: "\e901";
+}
+
+.icon-youtube:before{
+	font-size: 37px;
+	content: "\e902";
+}
+
+.icon-arrow-left:before{
+	content: "\e903";
+}
+
+.icon-arrow-right:before{
+	content: "\e904";
+}
+
+.icon-boost:before{
+	font-size: 61px;
+	content: "\e905";
+}
+
+.icon-chat:before{
+	content: "\e906";
+}
+
+.icon-cloud-50gb:before{
+	font-size: 68px;
+	content: "\e907";
+}
+
+.icon-connect:before{
+	content: "\e908";
+}
+
+.icon-envelope:before{
+	font-size: 41px;
+	content: "\e90a";
+}
+
+.icon-error:before{
+	font-size: 49px;
+	content: "\e90b";
+}
+
+.icon-find:before{
+	font-size: 66px;
+	content: "\e90c";
+}
+
+.icon-flash:before{
+	content: "\e90d";
+}
+
+.icon-hours-24:before{
+	content: "\e90e";
+}
+
+.icon-id-card:before{
+	content: "\e90f";
+}
+
+.icon-leaf:before{
+	content: "\e910";
+}
+
+.icon-long-arrow:before{
+	content: "\e911";
+}
+
+.icon-medal:before{
+	font-size: 78px;
+	content: "\e912";
+}
+
+.icon-peoples:before{
+	content: "\e913";
+}
+
+.icon-print:before{
+	content: "\e914";
+}
+
+.icon-settings:before{
+	content: "\e915";
+}
+
+.icon-shield:before{
+	font-size: 74px;
+	content: "\e916";
+}
+
+.icon-spanner:before{
+	content: "\e917";
+}
+
+.icon-tick:before{
+	content: "\e918";
+}
+
+.icon-warranty:before{
+	content: "\e919";
+}
+
+.icon-wifi-locked:before{
+	font-size: 75px;
+	content: "\e91a";
+}
+
+.icon-world:before{
+	font-size: 62px;
+	content: "\e91b";
 }

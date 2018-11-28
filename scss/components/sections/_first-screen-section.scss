@@ -1,0 +1,148 @@
+.first-screen-section{
+	min-height: 100vh;
+	padding-top: calc(150px + 130px); // padding + header height
+	background: url(../img/backgrounds/first-screen-bg.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: flex-end;
+
+	@media screen and (max-width: 1239px){
+		padding-top: calc(100px + 106px);
+	}
+
+	@media screen and (max-width: 575px){
+		padding-top: calc(50px + 106px);
+	}
+}
+
+.branding-block{
+	.branding-top{
+		padding: 60px 60px 40px;
+		background: rgba(#1f1f1f, .79);
+		color: #fff;
+
+		h1{
+			font-size: 80px;
+			line-height: 60px;
+			margin-bottom: 35px;
+			font-weight: 500;
+			text-transform: uppercase;
+
+			@media screen and (max-width: 1239px){
+				font-size: 70px;
+			}
+		}
+
+		@media screen and (max-width: 991px){
+			padding: 30px;
+
+			h1{
+				font-size: 56px;
+				margin-bottom: 20px;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			h1{
+				font-size: 42px;
+			}
+		}
+
+		@media screen and (max-width: 575px){
+			padding: 30px 15px;
+
+			h1{
+				font-size: 36px;
+				line-height: 40px;
+			}
+		}
+	}
+
+	.block-info{
+		> p{
+			font-size: 30px;
+			line-height: 46px;
+			margin: 0;
+			text-transform: uppercase;
+		}
+
+		.phone-link-block{
+			margin-top: -30px;
+			text-align: right;
+		}
+
+		@media screen and (max-width: 991px){
+			> p{
+				font-size: 24px;
+				line-height: 40px;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			> p{
+				font-size: 20px;
+				line-height: 30px;
+			}
+
+			.phone-link-block{
+				margin-top: 20px;
+			}
+		}
+
+		@media screen and (max-width: 575px){
+			> p{
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+	}
+
+	.phone-link-block{
+		color: #fc2a6b;
+
+		.tel-link{
+			font-size: 42px;
+			font-weight: 500;
+			line-height: 46px;
+			text-decoration: none;
+			color: #fc2a6b;
+
+			&:hover{
+				color: #fff;
+			}
+		}
+
+		.note{
+			font-size: 18px;
+			line-height: 24px;
+			font-weight: 400;
+			margin: 0;
+		}
+
+		@media screen and (max-width: 575px){
+			.tel-link{
+				font-size: 24px;
+				line-height: 28px;
+			}
+
+			.note{
+				font-size: 16px;
+				line-height: 20px;
+			}
+		}
+	}
+
+	.branding-bottom{
+		background: $pink;
+		padding: 30px 60px;
+
+		@media screen and (max-width: 991px){
+			padding: 30px;
+		}
+
+		@media screen and (max-width: 575px){
+			padding: 30px 15px;
+		}
+	}
+}

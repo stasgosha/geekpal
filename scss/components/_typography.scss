@@ -1,10 +1,156 @@
-// .geek- - prefix for typography
+// .gp- - prefix for typography
 
 body{
-	font-size: 14px;
-	line-height: 1.71em;
-	letter-spacing: 0.05em;
-	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
 	color: $text-color;
 	font-family: $main-font;
+}
+
+.gp-typography p,
+body .gp-body-1,
+.gp-note{
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 0 24px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+body .gp-body-2{
+	font-weight: bold;
+}
+
+// body .gp-note{
+// 	font-size: 12px;
+// 	line-height: 1.667em;
+// }
+
+// .gp-typography h1,
+// body .gp-h1{
+// 	font-size: 48px;
+// 	line-height: 1.083em;
+// 	font-weight: 300;
+// 	margin: 0 0 27px;
+// 	color: $text-dark;
+// 	text-transform: uppercase;
+
+// 	span{
+// 		font-weight: 500;
+// 	}
+
+// 	@media screen and (max-width: 767px){
+// 		font-size: 24px;
+// 		margin-bottom: 20px;
+// 	}
+// }
+
+.gp-typography h2,
+body .gp-h2{
+	font-size: 44px;
+	line-height: 1.2em;
+	margin: 0 0 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 575px){
+		font-size: 28px;
+	}
+}
+
+.gp-typography h3,
+body .gp-h3{
+	font-size: 29px;
+	line-height: 1.2em;
+	margin: 0 0 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 575px){
+		font-size: 25px;
+	}
+}
+
+.gp-typography h4,
+body .gp-h4{
+	font-size: 21px;
+	line-height: 26px;
+	margin: 0 0 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.gp-display-1{
+	font-size: 40px;
+	line-height: 1.2em;
+	margin: 0 0 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 575px){
+		font-size: 29px;
+	}
+}
+
+.section-caption{
+	margin-bottom: 30px;
+	text-align: center;
+
+	.caption-title{
+		margin-bottom: 20px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	&.white{
+		color: #fff;
+	}
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-uppecase{
+	text-transform: uppercase;
+}
+
+.text-link{
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+
+	&:hover{
+		text-decoration: none;
+	}
+
+	&.pink{
+		color: $pink;
+	}
+
+	&.white{
+		color: #fff;
+	}
 }

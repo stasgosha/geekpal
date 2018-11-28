@@ -28,4 +28,21 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 1239px){
+		li{
+			margin-right: 20px;
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		li{
+			margin-right: 10px;
+			text-align: center;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		display: none;
+	}
 }

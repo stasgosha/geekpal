@@ -4,6 +4,8 @@
 	position: fixed;
 	width: 100%;
 	top: 0;
+	transition: all $t;
+	z-index: 100;
 
 	&.sticky{
 		padding: 15px 0;
@@ -14,4 +16,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
+	.header-block{
+		margin-right: 30px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
 }

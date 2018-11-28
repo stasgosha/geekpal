@@ -9,7 +9,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title><?= $page_title ?> - GeelPall</title>
+	<title><?= $page_title ?> - GeekPall</title>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -31,6 +33,11 @@
 								<li><a href="total-protection.php">Total antivirus protection</a></li>
 								<li><a href="about-us.php">About us</a></li>
 							</ul>
+							<div class="menu-opener">
+								<div class="bar"></div>
+								<div class="bar"></div>
+								<div class="bar"></div>
+							</div>
 						</div>
 					</div>
 				</div>

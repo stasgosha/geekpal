@@ -1,0 +1,18 @@
+.geekbuddy-block{
+	display: flex;
+
+	.block-text{
+		max-width: 690px;
+	}
+
+	.block-image{
+		margin-left: 30px;
+		margin-top: -20px;
+	}
+
+	@media screen and (max-width: 767px){
+		.block-image{
+			display: none;
+		}
+	}
+}

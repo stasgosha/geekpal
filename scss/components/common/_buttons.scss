@@ -7,43 +7,67 @@
 	text-decoration: none;
 	align-items: center;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	font-weight: bold;
-	text-shadow: 0 1px 0 rgba(#fff, .53);
 	justify-content: center;
 	align-items: center;
 	padding: 7px 25px;
 	border: 2px solid transparent;
-	text-transform: uppercase;
 	position: relative;
 	-webkit-appearance: none;
-
-	@media screen and (min-width: 768px){
-		min-width: 194px;
-	}
-
-	&:after{
-		content: '';
-		display: block;
-		width: calc(100% + 2px);
-		height: calc(100% + 2px);
-		background: #977a07;
-		position: absolute;
-		bottom: -4px;
-		left: -1px;
-		z-index: -1;
-	}
+	background: $primary;
+	border-radius: 21px;
+	color: #fff;
 
 	&:hover{
-		
+		background: darken($primary, 10%);
 	}
 
-	&:active{
-		top: 3px;
+	&.btn-large{
+		font-size: 40px;
+		line-height: 50px;
+		padding: 30px 85px;
+		border-radius: 58px;
+		border-width: 3px;
+		font-weight: 900;
+	}
 
-		&:after{
-			bottom: -1px;
+	&.btn-big{
+		font-size: 30px;
+		line-height: 44px;
+		padding: 9px 50px;
+		font-weight: 900;
+		border-radius: 33px;
+	}
+
+	@media screen and (max-width: 1239px){
+		&.btn-big{
+			padding: 9px 25px;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		&.btn-large{
+			padding: 15px 35px;
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+
+	&.btn-khaki{
+		background: $khaki;
+
+		&:hover{
+			background: darken($khaki, 10%);
+		}
+	}
+
+	&.btn-olive{
+		background: $olive;
+
+		&:hover{
+			background: darken($olive, 10%);
 		}
 	}
 

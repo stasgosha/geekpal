@@ -23,13 +23,46 @@ $(document).ready(function(){
 	// Sticky Header
 	var isSticky = false;
 	$(window).scroll(function(){
-		if( !isSticky && $(window).scrollTop() > 0 ){
+		if( !isSticky && $(window).scrollTop() > 50){
 			$('.header').addClass('sticky');
 			isSticky = true;
-		} else if(isSticky){
+		} else if(isSticky && $(window).scrollTop() <= 50){
 			$('.header').removeClass('sticky');
 			isSticky = false;
 		}
+	});
+
+	// Sliders
+	$('.reviews-slider').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: true,
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					adaptiveHeight: true
+				}
+			},
+		// 	{
+		// 		breakpoint: 576,
+		// 		settings: {
+		// 			slidesToShow: 1,
+		// 			dots: true,
+		// 			arrows: false,
+		// 			infinite: true
+		// 		}
+		// 	}
+		]
 	});
 
 	// TODO: ↓↓↓ remove this script ↓↓↓

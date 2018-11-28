@@ -1,8 +1,10 @@
 $colors: (
 	white: #fff,
 	text: $text-color,
-	accent: $accent,
 	primary: $primary,
+	accent: $accent,
+	violet: $violet,
+	lightblue: $lightblue,
 );
 
 @each $i in $colors{
@@ -22,4 +24,12 @@ $colors: (
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.violet-bg{
+	background: $violet;
+}
+
+.azure-gradient-bg{
+	background: linear-gradient(to bottom, $azure 0%, $blue 66%, $blue 100%);
 }

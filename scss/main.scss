@@ -9,13 +9,24 @@
 @import "components/header/header";
 @import "components/header/logo-block";
 @import "components/header/top-nav";
-
+@import "components/header/menu-opener";
 
 // Sections
-
+@import "components/sections/first-screen-section";
 
 // Footer
+@import "components/footer/footer";
+@import "components/footer/socials-list";
+@import "components/footer/footer-nav";
 
 // Common
 @import "components/common/gutters";
 @import "components/common/buttons";
+@import "components/common/advantages-icon-block";
+@import "components/common/profitable-proposition-block";
+@import "components/common/feature-block";
+@import "components/common/slick-slider";
+@import "components/common/review-block";
+@import "components/common/package-block";
+@import "components/common/geekbuddy-block";
+@import "components/common/panel";
