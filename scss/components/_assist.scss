@@ -5,6 +5,7 @@ $colors: (
 	accent: $accent,
 	violet: $violet,
 	lightblue: $lightblue,
+	azure: $azure,
 );
 
 @each $i in $colors{
@@ -32,4 +33,8 @@ $colors: (
 
 .azure-gradient-bg{
 	background: linear-gradient(to bottom, $azure 0%, $blue 66%, $blue 100%);
+}
+
+.lightgray-bg{
+	background: #f2f2f2 !important;
 }

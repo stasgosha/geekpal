@@ -8,7 +8,7 @@
 						<h1>Expert tech support</h1>
 						<div class="block-info">
 							<p>Get premium tech <strong>support available 24/7</strong><br>Free consultation</p>
-							<div class="phone-link-block pink-mode centered">
+							<div class="phone-link-block big white-hover">
 								<a href="tel:8883873422" class="tel-link">888-387-3422</a>
 								<p class="note">(Toll Free US and Canada)</p>
 							</div>
@@ -17,7 +17,7 @@
 					<div class="branding-bottom">
 						<div class="advantages-list">
 							<div class="item">
-								<div class="advantages-icon-block pink-mode centered">
+								<div class="advantages-icon-block">
 									<div class="block-icon">
 										<i class="icon-peoples"></i>
 									</div>
@@ -25,7 +25,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<div class="advantages-icon-block pink-mode centered">
+								<div class="advantages-icon-block">
 									<div class="block-icon">
 										<i class="icon-hours-24"></i>
 									</div>
@@ -33,7 +33,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<div class="advantages-icon-block pink-mode centered">
+								<div class="advantages-icon-block">
 									<div class="block-icon">
 										<i class="icon-spanner"></i>
 									</div>
@@ -41,7 +41,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<div class="advantages-icon-block pink-mode centered">
+								<div class="advantages-icon-block">
 									<div class="block-icon">
 										<i class="icon-warranty"></i>
 									</div>
@@ -183,7 +183,7 @@
 				</div>
 				<div class="reviews-slider default-slide-paddings">
 					<div class="slide">
-						<div class="review-block">
+						<div class="review-slide-block">
 							<div class="block-text">
 								<p>Ive been with Comodo for a few years and have been so blessed to meet such nice and helpful techs. I'm a senior citizen and not really savvy with computers but each time I've had a problem, the geek with whom I dealt with was polite and patient and best of all, took care of the situation. I can't thank you enough because I feel safe &amp; secure as far a my computer is concerned. I always fill out a survey and have had no complaints at all.</p>
 							</div>
@@ -191,7 +191,7 @@
 						</div>
 					</div>
 					<div class="slide">
-						<div class="review-block">
+						<div class="review-slide-block">
 							<div class="block-text">
 								<p>Ive been with Comodo for a few years and have been so blessed to meet such nice and helpful techs. I'm a senior citizen and not really savvy with computers but each time I've had a problem, the geek with whom I dealt with was polite and patient and best of all, took care of the situation. I can't thank you enough because I feel safe &amp; secure as far a my computer is concerned.</p>
 							</div>
@@ -199,7 +199,7 @@
 						</div>
 					</div>
 					<div class="slide">
-						<div class="review-block">
+						<div class="review-slide-block">
 							<div class="block-text">
 								<p>Ive been with Comodo for a few years and have been so blessed to meet such nice and helpful techs. I'm a senior citizen and not really savvy with computers but each time I've had a problem, the geek with whom I dealt with was polite and patient and best of all, took care of the situation. I can't thank you enough because I feel safe &amp; secure as far a my computer is concerned. I always fill out a survey and have had no complaints at all. Thank you all &amp; keep up the good work. Have a great week-end.</p>
 							</div>
@@ -207,7 +207,7 @@
 						</div>
 					</div>
 					<div class="slide">
-						<div class="review-block">
+						<div class="review-slide-block">
 							<div class="block-text">
 								<p>Ive been with Comodo for a few years and have been so blessed to meet such nice and helpful techs. I'm a senior citizen and not really savvy with computers but each time I've had a problem, the geek with whom I dealt with was polite and patient and best of all, took care of the situation. I can't thank you enough because I feel safe &amp; secure as far a my computer is concerned. I always fill out a survey and have had no complaints at all.</p>
 							</div>

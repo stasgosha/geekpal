@@ -71,6 +71,14 @@
 		}
 	}
 
+	&.btn-black{
+		background: #000;
+
+		&:hover{
+			background: lighten(#000, 30%);
+		}
+	}
+
 	[class^="icon-"], [class*=" icon-"]{
 		&:first-child{
 			margin-right: 13px;

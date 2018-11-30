@@ -23,10 +23,10 @@ $(document).ready(function(){
 	// Sticky Header
 	var isSticky = false;
 	$(window).scroll(function(){
-		if( !isSticky && $(window).scrollTop() > 50){
+		if( !isSticky && $(window).scrollTop() > 200){
 			$('.header').addClass('sticky');
 			isSticky = true;
-		} else if(isSticky && $(window).scrollTop() <= 50){
+		} else if(isSticky && $(window).scrollTop() <= 200){
 			$('.header').removeClass('sticky');
 			isSticky = false;
 		}

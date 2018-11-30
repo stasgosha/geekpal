@@ -1,0 +1,50 @@
+.pagination{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	padding-top: 40px;
+
+	li{
+		padding: 0 5px;
+
+		&.previous{
+			padding-right: 35px;
+			text-decoration: underline;
+		}
+
+		&.next{
+			padding-left: 35px;
+			text-decoration: underline;
+		}
+
+		@media screen and (max-width: 575px){
+			&.previous{
+				padding-right: 15px;
+			}
+
+			&.next{
+				padding-left: 15px;
+			}
+		}
+
+		a{
+			font-size: 18px;
+			line-height: 25px;
+			font-weight: bold;
+			color: $lightblue;
+			text-transform: uppercase;
+
+			&:hover{
+				text-decoration: none;
+			}
+		}
+
+		&.current{
+			a{
+				color: #000;
+				cursor: default;
+			}
+		}
+	}
+}

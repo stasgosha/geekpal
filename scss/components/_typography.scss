@@ -96,7 +96,7 @@ body .gp-h4{
 
 .gp-display-1{
 	font-size: 40px;
-	line-height: 1.2em;
+	line-height: 1.4em;
 	margin: 0 0 20px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -105,9 +105,21 @@ body .gp-h4{
 		margin-bottom: 0;
 	}
 
+	@media screen and (max-width: 991px){
+		font-size: 34px;
+	}
+
 	@media screen and (max-width: 575px){
 		font-size: 29px;
 	}
+}
+
+.font-300{
+	font-weight: 300;
+}
+
+.font-400{
+	font-weight: 400;
 }
 
 .section-caption{
@@ -135,12 +147,21 @@ body .gp-h4{
 	text-transform: uppercase;
 }
 
+.text-transform-none{
+	text-transform: none !important;
+}
+
 .text-link{
 	font-size: 24px;
 	line-height: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: underline;
+	border: none;
+	outline: none !important;
+	background: transparent;
+	cursor: pointer;
+	color: #000;
 
 	&:hover{
 		text-decoration: none;
@@ -152,5 +173,75 @@ body .gp-h4{
 
 	&.white{
 		color: #fff;
+	}
+
+	&.small{
+		font-size: 18px;
+		line-height: 25px;
+	}
+}
+
+.geekpall-text-logo{
+	font-size: 66px;
+	line-height: 66px;
+	font-weight: 300;
+	margin-bottom: 20px;
+
+	strong{
+		font-weight: 500;
+	}
+}
+
+.rectangled-steps-list{
+	list-style: none;
+
+	li{
+		padding-left: 40px;
+		margin-bottom: 1px;
+		position: relative;
+		font-size: 18px;
+		line-height: 26px;
+		min-height: 40px;
+		display: flex;
+		align-items: center;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 14px;
+			height: 100%;
+			background: #00ffc6;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+		&:nth-child(1):before{
+			opacity: .1;
+		}
+
+		&:nth-child(2):before{
+			opacity: .3;
+		}
+
+		&:nth-child(3):before{
+			opacity: .5;
+		}
+
+		&:nth-child(4):before{
+			opacity: .7;
+		}
+
+		&:nth-child(5):before{
+			opacity: .85;
+		}
+
+		&:last-child{
+			margin-bottom: 0;
+
+			&:before{
+				opacity: 1;
+			}
+		}
 	}
 }

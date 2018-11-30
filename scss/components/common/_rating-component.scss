@@ -1,0 +1,115 @@
+.rating-component{
+	display: flex;
+	align-items: center;
+
+	.rating-block{
+		margin-right: 30px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		flex-wrap: wrap;
+		margin-bottom: -10px;
+
+		.rating-block{
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.rating-value{
+	font-size: 18px;
+	line-height: 25px;
+	color: #000;
+	font-weight: 500;
+
+	span{
+		display: inline-block;
+		padding: 0 8px;
+	}
+}
+
+.rating-text{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 500;
+}
+
+.rating-stars{
+	display: flex;
+	align-items: center;
+
+	.star{
+		width: 28px;
+		height: 26px;
+		background: url(../img/icons/stars-sprite.png) no-repeat right center;
+		margin-right: 6px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	&.rating-0-5{
+		.star:nth-child(1){ background-position: center center; }
+	}
+
+	&.rating-1-0{
+		.star:nth-child(1){ background-position: left center; }
+	}
+
+	&.rating-1-5{
+		.star:nth-child(1){ background-position: left center; }
+		.star:nth-child(2){ background-position: center center; }
+	}
+
+	&.rating-2-0{
+		.star:nth-child(1),
+		.star:nth-child(2){ background-position: left center; }
+	}
+
+	&.rating-2-5{
+		.star:nth-child(1),
+		.star:nth-child(2){ background-position: left center; }
+		.star:nth-child(3){ background-position: center center; }
+	}
+
+	&.rating-3-0{
+		.star:nth-child(1),
+		.star:nth-child(2),
+		.star:nth-child(3){ background-position: left center; }
+	}
+
+	&.rating-3-5{
+		.star:nth-child(1),
+		.star:nth-child(2),
+		.star:nth-child(3){ background-position: left center; }
+		.star:nth-child(4){ background-position: center center; }
+	}
+
+	&.rating-4-0{
+		.star:nth-child(1),
+		.star:nth-child(2),
+		.star:nth-child(3),
+		.star:nth-child(4){ background-position: left center; }
+	}
+
+	&.rating-4-5{
+		.star:nth-child(1),
+		.star:nth-child(2),
+		.star:nth-child(3),
+		.star:nth-child(4){ background-position: left center; }
+		.star:nth-child(5){ background-position: center center; }
+	}
+
+	&.rating-5-0{
+		.star:nth-child(1),
+		.star:nth-child(2),
+		.star:nth-child(3),
+		.star:nth-child(4),
+		.star:nth-child(5){ background-position: left center; }
+	}
+}

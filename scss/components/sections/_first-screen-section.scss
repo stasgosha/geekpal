@@ -98,41 +98,6 @@
 		}
 	}
 
-	.phone-link-block{
-		color: #fc2a6b;
-
-		.tel-link{
-			font-size: 42px;
-			font-weight: 500;
-			line-height: 46px;
-			text-decoration: none;
-			color: #fc2a6b;
-
-			&:hover{
-				color: #fff;
-			}
-		}
-
-		.note{
-			font-size: 18px;
-			line-height: 24px;
-			font-weight: 400;
-			margin: 0;
-		}
-
-		@media screen and (max-width: 575px){
-			.tel-link{
-				font-size: 24px;
-				line-height: 28px;
-			}
-
-			.note{
-				font-size: 16px;
-				line-height: 20px;
-			}
-		}
-	}
-
 	.branding-bottom{
 		background: $pink;
 		padding: 30px 60px;

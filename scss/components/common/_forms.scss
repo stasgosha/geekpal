@@ -1,0 +1,61 @@
+.checkbox,
+.radio{
+	input{
+		display: none;
+
+		+ label{
+			cursor: pointer;
+			padding-left: 30px;
+			position: relative;
+			display: block;
+			font-size: 18px;
+			line-height: 25px;
+
+			&:before{
+				content: '';
+				display: block;
+				width: 16px;
+				height: 16px;
+				border: 1px solid #949494;
+				position: absolute;
+				left: 0;
+				top: calc(50% - 8px);
+			}
+
+			&:after{
+				content: '';
+				display: block;
+				width: 10px;
+				height: 10px;
+				background: #949494;
+				opacity: 0;
+				transition: all $t;
+				position: absolute;
+				left: 4px;
+				top: calc(50% - 4px);
+			}
+		}
+
+		&:checked{
+			+ label{
+				&:after{
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.radio{
+	input{
+		+ label{
+			&:before{
+				border-radius: 50%;
+			}
+
+			&:after{
+				border-radius: 50%;
+			}
+		}
+	}
+}

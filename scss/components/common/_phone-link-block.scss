@@ -1,0 +1,55 @@
+.phone-link-block{
+	color: #fc2a6b;
+	text-align: right;
+
+	.tel-link{
+		font-size: 34px;
+		line-height: 39px;
+		font-weight: 500;
+		text-decoration: none;
+		color: #fc2a6b;
+
+		&:hover{
+			color: $primary;
+		}
+	}
+
+	.note{
+		font-size: 16px;
+		line-height: 30px;
+		font-weight: 400;
+		margin: 0;
+	}
+
+	&.big{
+		.tel-link{
+			font-size: 42px;
+			line-height: 46px;
+		}
+
+		.note{
+			font-size: 18px;
+			line-height: 24px;
+		}
+	}
+
+	&.white-hover{
+		.tel-link:hover{
+			color: #fff;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		.tel-link,
+		&.big .tel-link{
+			font-size: 24px;
+			line-height: 28px;
+		}
+
+		.note,
+		&.big .note{
+			font-size: 16px;
+			line-height: 20px;
+		}
+	}
+}
